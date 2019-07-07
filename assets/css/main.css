@@ -29,6 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
@@ -170,6 +171,9 @@ input, select, textarea {
 	strong, b {
 		font-weight: 800;
 		text-shadow: 1px 0 0;
+	}
+	video {
+		object-fit: cover;
 	}
 
 	em, i {
